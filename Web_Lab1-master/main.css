@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Sintony', ;
+    color: #5c6369;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Playfair Display', ;
+    font-weight: 700;
+    color: #14141d;
+}
+
+p {
+    line-height: 1.9em;
+}
+
+.yellow {
+    color: #fea100;
+}
+
+.menu {
+
+}
+
+.menu__item {
+    font-weight: 700;
+    font-size: 14px;
+} 
+
+.menu__item a {
+    color: #2c465a;
+    text-transform: uppercase;
+}
+
+.cta {
+    background: #fea100;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 0;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    border: 0;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.cta:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.book__icon {
+    background: url('img/order.png');
+    width: 21px;
+    height: 17px;
+    display: block;
+    margin-right: 13px;
+} 
+
+.main-header {
+    padding: 24px 0;
+
+}
+
+.offer {
+    background: url('img/first-bg.jpg') no-repeat center top;
+}
+
+.title {
+    padding: 200px 0 ;
+}
+
+.title__heading {
+    font-size: 56px;
+    color: #fff;
+}
+
+.title__desc {
+    font-family: 'Playfair Display', ;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.title__desc span {
+    color: #fea100;
+}
+
+.call {
+    background: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+    padding: 30px 0;
+}
+
+.phone {
+    width: 515px;
+}
+
+.phone__text {
+    background: url('img/phone.png') no-repeat left center;
+    color: #14141d;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 195px;
+    padding-left: 56px;
+    padding-top: 5px;
+}
+
+.phone__text span {
+    font-size: 16px;
+}
+
+.phone__digits {
+    font-size: 32px;
+    font-family: 'Playfair Display', ;
+    font-weight: 700;
+    color: #14141d;
+    margin-left: 42px;
+    margin-top: -5px;
+}
+
+.about {
+    padding: 65px 0 100px;
+}
+
+.history {
+    margin-top: 60px;
+}
+
+.history__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.history__text {
+    font-size: 14px;
+}
+
+.history__button {
+    width: 148px;
+    margin-top: 48px;
+}
+
+.food-images {
+
+}
+
+.food-images__item {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.food-images__item3 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.food-images__item4 {
+    margin-bottom: 60px;
+    width: 100%;
+    height: 160px;
+}
+
+.food-images-down {
+    margin-top: 40px;
+}
+
+.footer {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 106px;
+}
+
+.socials__item a{
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        display: block;
+        margin: 3px;
+}
+
+.socials__item_fb a{
+    background: #3b5998 url('img/fb.png') no-repeat center center;
+}
+
+.socials__item_tw a{
+    background: #55acee url('img/tw.png') no-repeat center center;
+}
+
+.socials__item_g a{
+    background: #dd4b39 url('img/g.png') no-repeat center center;
+}
+
+.line {
+    background: #52535e;
+    height: 1px;
+    margin-top: 50px;
+}
+
+.credits {
+    margin-top: 42px;
+    text-align: center;
+}
